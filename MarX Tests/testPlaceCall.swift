@@ -8,6 +8,8 @@
 
 import UIKit
 import XCTest
+import CoreTelephony
+
 
 class testPlaceCall: XCTestCase {
     
@@ -17,14 +19,19 @@ class testPlaceCall: XCTestCase {
         
         
         
-       // var url:NSURL = NSURL(string: "tel://972526134557")!
+       var url:NSURL = NSURL(string: "tel://972526134557")!
        // UIApplication.sharedApplication().openURL(url);
         
         var url2:NSURL = NSURL(string: "http://www.ynet.co.il")!
-        UIApplication.sharedApplication().openURL(url2);
+        UIApplication.sharedApplication().openURL(url);
         
         
+        var Call = CTCall();
+        var CallID = Call.callID!
+        var CallState = Call.callState
         
+        println (CallID)
+        println (CallState)
         
         
         

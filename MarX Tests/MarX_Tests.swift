@@ -8,6 +8,7 @@
 
 import UIKit
 import XCTest
+import CoreTelephony
 
 class MarX_Tests: XCTestCase {
     
@@ -23,6 +24,25 @@ class MarX_Tests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
+        
+        
+        var url:NSURL = NSURL(string: "tel://972526134557")!
+        // UIApplication.sharedApplication().openURL(url);
+        
+        var url2:NSURL = NSURL(string: "http://www.ynet.co.il")!
+        UIApplication.sharedApplication().openURL(url);
+        
+        
+        var Call = CTCall();
+        var CallID = Call.callID!
+        var CallState = Call.callState
+        
+        println (CallID)
+        println (CallState)
+        
+        
+        
+        
         XCTAssert(true, "Pass")
     }
     

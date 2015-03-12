@@ -65,8 +65,8 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
@@ -102,40 +102,15 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "33A16CB71A7D8EC400BE4F17"
-               BuildableName = "Simgo Testing.xctest"
-               BlueprintName = "Simgo Testing"
-               ReferencedContainer = "container:MarX.xcodeproj">
-            </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "Simgo">
-               </Test>
-            </SkippedTests>
-            <LocationScenarioReference
-               identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
-               referenceType = "1">
-            </LocationScenarioReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "33F5F65A1A938EA10080C398"
-               BuildableName = "XCGLoggerTests.xctest"
-               BlueprintName = "XCGLoggerTests"
-               ReferencedContainer = "container:MarX.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "33526A1B1A9A0E8600DC5F53"
                BuildableName = "MarX Tests.xctest"
                BlueprintName = "MarX Tests"
                ReferencedContainer = "container:MarX.xcodeproj">
             </BuildableReference>
+            <LocationScenarioReference
+               identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
+               referenceType = "1">
+            </LocationScenarioReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
@@ -157,7 +132,8 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DCF3CDB91808031700C870B8"
@@ -175,7 +151,8 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DCF3CDB91808031700C870B8"

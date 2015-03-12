@@ -21,6 +21,12 @@
 		33F5F6151A8B6D7E0080C398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F5F6131A8B6D7E0080C398 /* Main.storyboard */; };
 		33F5F6171A8B6D7E0080C398 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F5F6161A8B6D7E0080C398 /* Images.xcassets */; };
 		33F5F61A1A8B6D7E0080C398 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F5F6181A8B6D7E0080C398 /* LaunchScreen.xib */; };
+		A45080BA1AB08AF500EDE11D /* testGetNetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45080B61AB08AF500EDE11D /* testGetNetworkData.swift */; };
+		A45080BB1AB08AF500EDE11D /* testPlaceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45080B71AB08AF500EDE11D /* testPlaceCall.swift */; };
+		A45080BC1AB08AF500EDE11D /* testRebootIphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45080B81AB08AF500EDE11D /* testRebootIphone.swift */; };
+		A45080BD1AB08AF500EDE11D /* testSendSMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45080B91AB08AF500EDE11D /* testSendSMS.swift */; };
+		A45080C21AB08C7000EDE11D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A45080C01AB08C7000EDE11D /* Reachability.m */; };
+		A45080D11AB1E14100EDE11D /* MarX-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 333021A81A9600E8002EBE47 /* MarX-Bridging-Header.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +60,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		331D9F8E1A813C20009BC614 /* testSendSMS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = testSendSMS.swift; path = "../Simgo Tests New/testSendSMS.swift"; sourceTree = "<group>"; };
 		333021A81A9600E8002EBE47 /* MarX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarX-Bridging-Header.h"; sourceTree = "<group>"; };
 		333021A91A9600E9002EBE47 /* Reachability-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Reachability-Info.plist"; sourceTree = "<group>"; };
 		333021AA1A9600E9002EBE47 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -67,12 +72,8 @@
 		334DBD761AA4C0580009FE19 /* test.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.aif; sourceTree = "<group>"; };
 		33526A1C1A9A0E8600DC5F53 /* MarX Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MarX Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33526A1F1A9A0E8600DC5F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33526A201A9A0E8600DC5F53 /* MarX_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarX_Tests.swift; sourceTree = "<group>"; };
+		33526A201A9A0E8600DC5F53 /* MarX_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MarX_Tests.swift; path = "MarX Tests/MarX_Tests.swift"; sourceTree = SOURCE_ROOT; };
 		3385AC5C1AAC9F83006E8C00 /* 5min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5min.mp3; sourceTree = "<group>"; };
-		338B98BD1A8119410078AF37 /* Script.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = Script.sh; path = "../Simgo Tests New/Script.sh"; sourceTree = "<group>"; };
-		338B98C01A811A280078AF37 /* testRebootIphone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = testRebootIphone.swift; path = "../Simgo Tests New/testRebootIphone.swift"; sourceTree = "<group>"; };
-		33A16CBC1A7D8EC400BE4F17 /* testPlaceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = testPlaceCall.swift; path = "../Simgo Tests New/testPlaceCall.swift"; sourceTree = "<group>"; };
-		33A16CC61A7E418B00BE4F17 /* testGetNetworkData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = testGetNetworkData.swift; path = "../Simgo Tests New/testGetNetworkData.swift"; sourceTree = "<group>"; };
 		33AB2F871AAE0F0F0029AB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33AB2F881AAE0F0F0029AB4A /* XCGLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCGLogger.h; sourceTree = "<group>"; };
 		33AB2F8E1AAEE3D30029AB4A /* XCGLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCGLogger.swift; sourceTree = SOURCE_ROOT; };
@@ -85,6 +86,13 @@
 		33F5F6141A8B6D7E0080C398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33F5F6161A8B6D7E0080C398 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		33F5F6191A8B6D7E0080C398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A45080B61AB08AF500EDE11D /* testGetNetworkData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = testGetNetworkData.swift; path = "MarX Tests/testGetNetworkData.swift"; sourceTree = SOURCE_ROOT; };
+		A45080B71AB08AF500EDE11D /* testPlaceCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = testPlaceCall.swift; path = "MarX Tests/testPlaceCall.swift"; sourceTree = SOURCE_ROOT; };
+		A45080B81AB08AF500EDE11D /* testRebootIphone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = testRebootIphone.swift; path = "MarX Tests/testRebootIphone.swift"; sourceTree = SOURCE_ROOT; };
+		A45080B91AB08AF500EDE11D /* testSendSMS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = testSendSMS.swift; path = "MarX Tests/testSendSMS.swift"; sourceTree = SOURCE_ROOT; };
+		A45080BE1AB08C7000EDE11D /* MarX Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarX Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		A45080BF1AB08C7000EDE11D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A45080C01AB08C7000EDE11D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		DC3092781834D4AA0067FF6D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DC72C431184F3D0B00EE068B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DC84E5891836946E00738759 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -135,11 +143,10 @@
 		33526A1D1A9A0E8600DC5F53 /* MarX Tests */ = {
 			isa = PBXGroup;
 			children = (
-				331D9F8E1A813C20009BC614 /* testSendSMS.swift */,
-				338B98C01A811A280078AF37 /* testRebootIphone.swift */,
-				338B98BD1A8119410078AF37 /* Script.sh */,
-				33A16CC61A7E418B00BE4F17 /* testGetNetworkData.swift */,
-				33A16CBC1A7D8EC400BE4F17 /* testPlaceCall.swift */,
+				A45080B61AB08AF500EDE11D /* testGetNetworkData.swift */,
+				A45080B71AB08AF500EDE11D /* testPlaceCall.swift */,
+				A45080B81AB08AF500EDE11D /* testRebootIphone.swift */,
+				A45080B91AB08AF500EDE11D /* testSendSMS.swift */,
 				33526A201A9A0E8600DC5F53 /* MarX_Tests.swift */,
 				33526A1E1A9A0E8600DC5F53 /* Supporting Files */,
 			);
@@ -149,7 +156,10 @@
 		33526A1E1A9A0E8600DC5F53 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A45080BF1AB08C7000EDE11D /* Reachability.h */,
+				A45080C01AB08C7000EDE11D /* Reachability.m */,
 				33526A1F1A9A0E8600DC5F53 /* Info.plist */,
+				A45080BE1AB08C7000EDE11D /* MarX Tests-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -342,7 +352,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45080D11AB1E14100EDE11D /* MarX-Bridging-Header.h in Sources */,
+				A45080BB1AB08AF500EDE11D /* testPlaceCall.swift in Sources */,
 				33526A211A9A0E8600DC5F53 /* MarX_Tests.swift in Sources */,
+				A45080BA1AB08AF500EDE11D /* testGetNetworkData.swift in Sources */,
+				A45080BC1AB08AF500EDE11D /* testRebootIphone.swift in Sources */,
+				A45080C21AB08C7000EDE11D /* Reachability.m in Sources */,
+				A45080BD1AB08AF500EDE11D /* testSendSMS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -418,6 +435,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarX Tests/MarX Tests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -426,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -441,6 +460,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MarX Tests/MarX Tests-Bridging-Header.h";
 			};
 			name = Release;
 		};
