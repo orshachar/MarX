@@ -17,21 +17,37 @@ class testPlaceCall: XCTestCase {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
         
+        var callcenter = CTCallCenter()
         
         
        var url:NSURL = NSURL(string: "tel://972526134557")!
        // UIApplication.sharedApplication().openURL(url);
         
-        var url2:NSURL = NSURL(string: "http://www.ynet.co.il")!
+       // var url2:NSURL = NSURL(string: "http://www.ynet.co.il")!
         UIApplication.sharedApplication().openURL(url);
         
         
-        var Call = CTCall();
-        var CallID = Call.callID!
-        var CallState = Call.callState
+        func callhandle (call:CTCall!) {
+            println(call.callState)
+        }
         
-        println (CallID)
-        println (CallState)
+        func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+            //Declare callcenter in the class like 'var callcenter = CTCallCenter()'
+            callcenter.callEventHandler = callhandle
+            
+            return true
+        }
+        
+        
+        
+     //   var Call = CTCall();
+     //   var CallID = Call.callID?
+    //    var CallState = Call.callState
+        
+        
+        
+     //   println (CallID)
+     //   println (CallState)
         
         
         
